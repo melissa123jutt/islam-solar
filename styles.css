@@ -1,0 +1,45 @@
+/* Custom CSS */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 80vh;
+    background: url('solar2.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.showcase img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#services img,
+#about-us img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
